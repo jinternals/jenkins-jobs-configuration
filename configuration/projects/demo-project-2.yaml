@@ -1,0 +1,4 @@
+- project:
+    name: demo-project-2
+    jobs:
+      - "{name}-demo-template"
