@@ -2,4 +2,4 @@
     name: demo-view
     description: all demo projects
     view-type: list
-    regex: "demo-project-*"
+    regex: "demo-project-.*"
