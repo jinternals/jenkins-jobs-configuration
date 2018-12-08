@@ -1,0 +1,5 @@
+- defaults:
+    name: global
+    logrotate:
+      daysToKeep: 30
+      numToKeep: 5
