@@ -1,4 +1,5 @@
 - project:
     name: demo-project-2
+    display-name: demo-project-2
     jobs:
       - "{name}-demo-template"
