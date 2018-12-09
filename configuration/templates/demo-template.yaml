@@ -1,6 +1,6 @@
 - job-template:
     display-name: "{display-name}"
-    description: "This is {display-name}"
+    description: "${description}"
     name: "{name}-demo-template"
     project-type: pipeline
     dsl:
