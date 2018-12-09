@@ -1,5 +1,7 @@
 - defaults:
     name: global
+    branch: master
+    gitUrl: ""
     logrotate:
       daysToKeep: 30
       numToKeep: 5
