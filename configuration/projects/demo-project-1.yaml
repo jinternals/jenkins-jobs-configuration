@@ -1,6 +1,6 @@
 - project:
-    name:  Demo Project 1
-    description: Demo Project 1
+    name:  demo-project-1
+    description: Demo Project 1.
     display-name: demo-project-1
     gitUrl: https://github.com/jinternals/spring-micrometer-demo.git
     jobs:
