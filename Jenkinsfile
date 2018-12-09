@@ -7,7 +7,7 @@ pipeline {
                 sh 'jenkins-jobs test -r ./configuration'
             }
         }
-         stage('Test Jobs Configuration') {
+         stage('Apply Jobs Configuration') {
                     steps {
                         sh 'jenkins-jobs update --delete-old -r ./configuration'
                     }
