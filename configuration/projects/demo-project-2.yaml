@@ -1,5 +1,5 @@
 - project:
-    name: Demo Project 2
+    name: demo-project-2
     description: Demo Project 2.
     display-name: demo-project-2
     gitUrl: https://github.com/jinternals/service-locator.git
