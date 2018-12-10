@@ -2,6 +2,6 @@
 
 demoPipline(
     branch = '{branch}',
-    gitUrl = '${gitUrl}',
+    gitUrl = '{gitUrl}',
     email = 'pandeymradul@gmail.com'
 )
