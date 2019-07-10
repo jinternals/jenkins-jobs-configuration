@@ -1,8 +1,9 @@
 @Library("jenkins-demo-shared-libraries") _
 
 domainPipeline(
-        branch: "{branch}",
-        gitUrl: "{gitUrl}",
+        gitBranch: "{gitBranch}",
+        gitCredentialId: "github",
+        gitRepository: "{gitRepository}",
         email: "pandeymradul@gmail.com",
         dockerCredentialId: "dockerhub",
         dockerRegistry: "https://index.docker.io/v1/",
