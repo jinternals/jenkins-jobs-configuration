@@ -5,3 +5,5 @@
     logrotate:
       daysToKeep: 30
       numToKeep: 5
+    triggers:
+      - github  
