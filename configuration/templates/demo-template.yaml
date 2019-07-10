@@ -6,5 +6,5 @@
     dsl:
       !include-raw:
       - ../dsl/demo-dsl.groovy
-
-
+    triggers:
+      - github
