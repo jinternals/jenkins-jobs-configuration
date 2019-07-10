@@ -1,7 +1,10 @@
 @Library("jenkins-demo-shared-libraries") _
 
-demoPipeline(
+domainPipeline(
         branch: "{branch}",
         gitUrl: "{gitUrl}",
-        email: "pandeymradul@gmail.com"
+        email: "pandeymradul@gmail.com",
+        dockerCredentialId: "dockerhub",
+        dockerRegistry: "https://index.docker.io/v1/",
+        dockerRepository: {dockerRepository} "jinternals/spring-micrometer-demo"
 )
