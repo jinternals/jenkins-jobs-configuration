@@ -6,5 +6,5 @@ domainPipeline(
         email: "pandeymradul@gmail.com",
         dockerCredentialId: "dockerhub",
         dockerRegistry: "https://index.docker.io/v1/",
-        dockerRepository: {dockerRepository} "jinternals/spring-micrometer-demo"
+        dockerRepository: "{dockerRepository}"
 )
