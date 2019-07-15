@@ -2,6 +2,6 @@
     name: global
     branch: master
     gitUrl: ""
-    logrotate:
+    build-discarder:
       daysToKeep: 30
       numToKeep: 5
