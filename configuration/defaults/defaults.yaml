@@ -3,5 +3,6 @@
     branch: master
     gitUrl: ""
     build-discarder:
-      daysToKeep: 30
-      numToKeep: 5
+      logrotate:
+        daysToKeep: 30
+        numToKeep: 5
