@@ -5,6 +5,6 @@
     project-type: pipeline
     dsl:
       !include-raw:
-      - ../dsl/demo-dsl.groovy
+      - ../dsl/domain-pipeline-dsl.groovy
     triggers:
       - github
