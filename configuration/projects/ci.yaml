@@ -1,5 +1,5 @@
 - project:
-    name:  micrometer-k
+    name:  micrometer-ci
     description: micrometer ci pipeline.
     display-name: micrometer-ci-pipeline
     jobs:
