@@ -2,7 +2,7 @@
     id: "{name}-ci-pipeline"
     display-name: "{display-name}"
     description: "${description}"
-    name: "{name}-ci"
+    name: "{name}"
     project-type: pipeline
     dsl:
       !include-raw:
