@@ -6,3 +6,7 @@
     dsl:
       !include-raw:
       - ../dsl/ci-pipeline-dsl.groovy
+    parameters:
+      - string:
+          name: BRANCH
+          default: '{branch}'
