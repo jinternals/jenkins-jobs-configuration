@@ -1,7 +1,7 @@
 - job-template:
     display-name: "{display-name}"
     description: "${description}"
-    name: "{name}-domain-pipeline-template"
+    name: "{name}-domain"
     project-type: pipeline
     dsl:
       !include-raw:
