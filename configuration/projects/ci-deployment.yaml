@@ -1,0 +1,6 @@
+- project:
+    name:  ci-pipeline
+    description: ci pipeline.
+    display-name: ci-pipeline
+    jobs:
+      - "{name}-deployment-pipeline-template"
