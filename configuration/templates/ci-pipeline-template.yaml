@@ -6,8 +6,8 @@
     dsl:
       !include-raw:
       - ../dsl/ci-pipeline-dsl.groovy
-  parameters:
-    - string:
+    parameters:
+      - string:
         name: FOO
         default: bar
         description: "A parameter named FOO, defaults to 'bar'."
