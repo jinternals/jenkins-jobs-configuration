@@ -1,0 +1,8 @@
+- job-template:
+    display-name: "{display-name}"
+    description: "${description}"
+    name: "{name}-deployment-pipeline-template"
+    project-type: pipeline
+    dsl:
+      !include-raw:
+      - ../dsl/deployment-pipeline-dsl.groovy
