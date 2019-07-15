@@ -3,4 +3,4 @@
     description: ci pipeline.
     display-name: ci-pipeline
     jobs:
-      - "{name}-deployment-pipeline-template"
+      - "{name}-ci-pipeline-template"
