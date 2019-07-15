@@ -2,7 +2,7 @@
     id: "{name}-domain-template"
     display-name: "{display-name}"
     description: "${description}"
-    name: "{name}"
+    name: "{name}-domain"
     project-type: pipeline
     dsl:
       !include-raw:
