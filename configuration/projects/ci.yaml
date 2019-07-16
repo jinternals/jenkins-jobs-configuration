@@ -1,6 +1,0 @@
-- project:
-    name:  micrometer-ci
-    description: micrometer ci pipeline.
-    display-name: micrometer-ci-pipeline
-    jobs:
-      - "{name}-ci-pipeline"
