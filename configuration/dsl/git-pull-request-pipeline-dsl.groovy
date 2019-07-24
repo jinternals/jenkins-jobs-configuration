@@ -1,4 +1,4 @@
 
 @Library("jenkins-demo-shared-libraries") _
 
-ciPipeline(name: 'some-name')
+gitPullRequestPipeline(name: 'some-name')
