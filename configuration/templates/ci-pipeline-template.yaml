@@ -1,12 +1,12 @@
 - job-template:
-    id: "{name}-ci-pipeline"
+    id: "{name}-git-pull-request-pipeline"
     display-name: "{display-name}"
     description: "${description}"
     name: "{name}-pipeline"
     project-type: pipeline
     dsl:
       !include-raw:
-      - ../dsl/ci-pipeline-dsl.groovy
+      - ../dsl/git-pull-request-pipeline-dsl.groovy
     parameters:
       - string:
           name: VERSION
