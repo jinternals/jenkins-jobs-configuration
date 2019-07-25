@@ -13,14 +13,12 @@
     triggers:
       - github-pull-request:
           admin-list:
-            - user1
-            - user2
+            - asfgit
           white-list:
             - user3
             - user4
           org-list:
             - org1
-            - org2
           cron: 'H/5 * * * *'
           trigger-phrase: 'retest this please'
           only-trigger-phrase: true
