@@ -11,7 +11,7 @@
       - github
     scm:
       - git:
-         credentials-id: "{gitCredentialId}"
+         credentials-id: "github"
          url: "{gitRepository}"
          branches:
           - "origin/{gitBranch}"
