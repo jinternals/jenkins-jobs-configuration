@@ -9,3 +9,9 @@
       - ../dsl/domain-pipeline-dsl.groovy
     triggers:
       - github
+    scm:
+      - git:
+         credentials-id: "{gitCredentialId}"
+         url: "{gitRepository}"
+         branches:
+          - "origin/{gitBranch}"
