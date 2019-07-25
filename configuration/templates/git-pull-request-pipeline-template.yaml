@@ -10,15 +10,15 @@
     parameters:
       - string:
           name: VERSION
+    scm:
+      - git:
+         credentials-id: "github"
+         url: "{gitRepository}"
+         refspec: +refs/pull/*:refs/remotes/origin/pr/*
+         branches:
+          - "${sha1}"
     triggers:
       - github-pull-request:
-          admin-list:
-            - asfgit
-          white-list:
-            - user3
-            - user4
-          org-list:
-            - org1
           cron: 'H/5 * * * *'
           trigger-phrase: 'retest this please'
           only-trigger-phrase: true
