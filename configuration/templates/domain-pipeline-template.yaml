@@ -7,3 +7,5 @@
     dsl:
       !include-raw:
       - ../dsl/domain-pipeline-dsl.groovy
+    triggers:
+      - github
