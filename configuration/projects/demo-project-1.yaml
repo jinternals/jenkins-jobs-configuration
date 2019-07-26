@@ -1,7 +1,6 @@
 - project:
     name: micrometer
     description: micrometer demo project.
-    display-name: micrometer-domain
     gitBranch: master
     folder: micrometer
     gitRepository: https://github.com/jinternals/spring-micrometer-demo.git
