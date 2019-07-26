@@ -10,7 +10,7 @@
       - ../dsl/git-pull-request-pipeline-dsl.groovy
     parameters:
       - string:
-          name: VERSION
+          name: action
     scm:
       - git:
          credentials-id: "github"
