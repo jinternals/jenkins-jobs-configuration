@@ -1,8 +1,3 @@
-- job-template:
-    id: "{name}-domain-folder"
-    name: "{name}"
-    project-type: folder  
-    
 - job-template:    
     id: "{name}-domain-template"
     display-name: "{display-name}"
