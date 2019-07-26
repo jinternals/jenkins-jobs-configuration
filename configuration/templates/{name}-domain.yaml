@@ -1,5 +1,5 @@
 - job-group:
-    id: '{name}-domain'
+    name: '{name}-domain'
     jobs:
     - '{name}-job-build'
     - '{name}-job-folder'
