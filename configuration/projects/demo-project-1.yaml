@@ -7,3 +7,4 @@
     dockerRepository: jinternals/spring-micrometer-demo
     jobs:
       - "{name}-domain-template"
+      - "{name}-domain-folder"
