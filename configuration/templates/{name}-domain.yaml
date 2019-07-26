@@ -1,0 +1,6 @@
+- job-group:
+    name: '{name}-domain'
+    jobs:
+    - '{name}-job-build'
+    - '{name}-job-folder'
+    - '{name}-job-pr'
