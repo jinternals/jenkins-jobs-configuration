@@ -4,7 +4,7 @@
     description: "${description}"
     name: "{name}-domain"
     project-type: pipeline
-    folder: "{name}"
+    folder: "{folder}"
     dsl:
       !include-raw:
       - ../dsl/domain-pipeline-dsl.groovy
