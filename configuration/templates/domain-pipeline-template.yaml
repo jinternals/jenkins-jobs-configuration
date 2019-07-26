@@ -3,6 +3,7 @@
     display-name: "{display-name}"
     description: "${description}"
     name: "{name}-domain"
+    folder: "{name}"
     project-type: pipeline
     dsl:
       !include-raw:
