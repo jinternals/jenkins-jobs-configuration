@@ -2,8 +2,8 @@
     name: '{name}-domain'
     jobs:
       - '{name}-job-build':
-         name: "{name}-domain"
+         display-name: "{name}-domain"
       - '{name}-job-folder'
       - '{name}-job-pr':
-         name: "{name}-pr"
+         display-name: "{name}-pr"
 
