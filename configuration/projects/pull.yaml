@@ -1,5 +1,5 @@
 - project:
-    name: micrometer
+    name: micrometer-pull
     description: micrometer demo project.
     display-name: micrometer-pull
     gitBranch: master
