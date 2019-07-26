@@ -8,5 +8,4 @@
     dockerRepository: jinternals/spring-micrometer-demo
     jobs:
       - "{name}-git-pull-request-pipeline-template"
-      - "{name}-job-folder"
 
