@@ -1,10 +1,9 @@
 - job-group:
     name: '{name}-domain'
     jobs:
+      - '{name}-job-folder'
       - '{name}-job-build':
          display-name: "{name}-domain"
-      - '{name}-job-folder':
-         folder: "{name}"
       - '{name}-job-pr':
          display-name: "{name}-pr"
 
