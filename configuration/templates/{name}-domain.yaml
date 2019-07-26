@@ -3,7 +3,8 @@
     jobs:
       - '{name}-job-build':
          display-name: "{name}-domain"
-      - '{name}-job-folder'
+      - '{name}-job-folder':
+         name: "{name}"
       - '{name}-job-pr':
          display-name: "{name}-pr"
 
