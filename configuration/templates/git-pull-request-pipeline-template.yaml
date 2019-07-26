@@ -4,6 +4,7 @@
     description: "${description}"
     name: "{name}-pipeline"
     project-type: pipeline
+    folder: "{folder}"
     dsl:
       !include-raw:
       - ../dsl/git-pull-request-pipeline-dsl.groovy
