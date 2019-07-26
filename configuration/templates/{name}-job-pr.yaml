@@ -1,5 +1,5 @@
 - job-template:
-    id: "{name}-git-pull-request-pipeline-template"
+    id: "{name}-job-pr"
     display-name: "{display-name}"
     description: "${description}"
     name: "{name}-pipeline"
