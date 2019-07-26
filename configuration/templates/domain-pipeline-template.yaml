@@ -1,8 +1,9 @@
 - job-template:
-    name: '{name}'
-    project-type: folder
+    id: "{name}-domain-template"
+    name: "{name}"
+    project-type: folder  
     
-- project:   
+- job-template:    
     id: "{name}-domain-template"
     display-name: "{display-name}"
     description: "${description}"
