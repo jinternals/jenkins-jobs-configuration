@@ -1,5 +1,5 @@
 - job-template:    
-    id: "{name}-domain-template"
+    id: "{name}-job-build"
     display-name: "{display-name}"
     description: "${description}"
     name: "{name}-domain"
