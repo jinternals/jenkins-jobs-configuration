@@ -1,5 +1,5 @@
 - job-template:
-    id: "{name}-domain-folder"
+    id: "{name}-job-folder"
     name: "{name}"
     project-type: folder  
     
