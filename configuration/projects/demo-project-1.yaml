@@ -1,4 +1,5 @@
 - project:
+    name: micrometer
     description: micrometer demo project.
     display-name: micrometer-domain
     gitBranch: master
