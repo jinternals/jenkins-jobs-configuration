@@ -2,7 +2,7 @@
     name: '{name}-domain'
     jobs:
       - 'folder-job-template'
-      - '{name}-job-build':
+      - 'build-job-template':
          display-name: "{name}-domain"
       - 'pr-job-template':
          display-name: "{name}-pr"
