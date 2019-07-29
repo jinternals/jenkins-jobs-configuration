@@ -6,4 +6,5 @@
          display-name: "{name}-domain"
       - '{name}-job-pr':
          display-name: "{name}-pr"
+      - '{name}-ci-deployment-template'
 
