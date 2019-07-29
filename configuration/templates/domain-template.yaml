@@ -1,7 +1,7 @@
 - job-group:
     name: '{name}-domain'
     jobs:
-      - '{name}-job-folder'
+      - 'folder-job-template'
       - '{name}-job-build':
          display-name: "{name}-domain"
       - 'pr-job-template':
