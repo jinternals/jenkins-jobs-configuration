@@ -1,5 +1,5 @@
 - job-template:    
-    id: "{name}-ci-deployment"
+    id: "{name}-ci-deployment-template"
     display-name: "{display-name}"
     description: "${description}"
     name: "{name}-ci-deployment"
