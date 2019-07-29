@@ -1,7 +1,7 @@
 @Library("jenkins-demo-shared-libraries") _
 
 domainPipeline(
-        name: "{name}"
+        name: "{name}",
         gitBranch: "{gitBranch}",
         gitCredentialId: "github",
         gitRepository: "{gitRepository}",
