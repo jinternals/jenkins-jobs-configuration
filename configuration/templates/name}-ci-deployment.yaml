@@ -1,0 +1,10 @@
+- job-template:    
+    id: "{name}-ci-deployment"
+    display-name: "{display-name}"
+    description: "${description}"
+    name: "{name}-ci-deployment"
+    project-type: pipeline
+    folder: "{folder}"
+    dsl:
+      !include-raw:
+      - ../dsl/ci-pipeline-dsl.groovy
