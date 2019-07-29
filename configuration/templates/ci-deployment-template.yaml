@@ -1,7 +1,7 @@
 - job-template:    
     id: "{name}-ci-deployment-template"
     display-name: "{display-name}"
-    description: "${description}"
+    description: "{description}"
     name: "{name}-ci-deployment"
     project-type: pipeline
     folder: "{folder}"
