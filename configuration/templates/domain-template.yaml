@@ -7,4 +7,6 @@
       - 'pr-job-template':
          display-name: "{name}-pr"
       - '{name}-ci-deployment-template'
+         display-name: "{name}-pr"
+
 
