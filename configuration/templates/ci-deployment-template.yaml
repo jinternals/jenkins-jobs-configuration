@@ -5,6 +5,10 @@
     name: "{name}-ci-deployment"
     project-type: pipeline
     folder: "{folder}"
+    parameters:
+      - string:
+          name: VERSION
+          description: "Application version."
     dsl:
       !include-raw:
       - ../dsl/ci-pipeline-dsl.groovy
