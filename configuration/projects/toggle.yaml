@@ -5,4 +5,4 @@
     gitRepository: https://github.com/jinternals/toggle.git
     folder: starter
     jobs:
-      - "library-group-template"
+      - "starter-group-template"
