@@ -7,6 +7,6 @@
     folder: "{folder}"
     dsl:
       !include-raw:
-      - ../dsl/domain-pipeline-dsl.groovy
+      - ../../dsl/domain-pipeline-dsl.groovy
     triggers:
       - github
