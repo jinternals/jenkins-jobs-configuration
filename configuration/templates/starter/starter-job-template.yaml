@@ -1,5 +1,5 @@
 - job-template:    
-    id: "starter-job-template"
+    id: "starter-build-template"
     display-name: "{name}-starter"
     description: "${description}"
     name: "{name}-starter"
