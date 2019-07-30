@@ -1,8 +1,8 @@
 - job-template:    
-    id: "{name}-deployment-template"
+    id: "deployment-template"
     display-name: "{display-name}"
     description: "{description}"
-    name: "{name}-ci-deployment"
+    name: "{name}-{environment}-deployment"
     project-type: pipeline
     folder: "{folder}"
     environment: "{environment}"
@@ -12,4 +12,4 @@
           description: "Application version."
     dsl:
       !include-raw:
-      - ../dsl/ci-pipeline-dsl.groovy
+      - ../dsl/deployment-pipeline-dsl.groovy
