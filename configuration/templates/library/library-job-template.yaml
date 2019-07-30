@@ -3,6 +3,7 @@
     display-name: "{name}-library"
     description: "${description}"
     name: "{name}-library"
+    folder: "{folder}"
     project-type: pipeline
     dsl:
       !include-raw:
