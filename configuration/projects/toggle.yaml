@@ -3,6 +3,6 @@
     description: toggle starter.
     gitBranch: master
     gitRepository: https://github.com/jinternals/toggle.git
-    folder: starter
+    folder: starters
     jobs:
       - "starter-group-template"
