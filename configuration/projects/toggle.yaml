@@ -1,7 +1,8 @@
 - project:
     name: toggle
-    description: toggle library project.
+    description: toggle starter.
     gitBranch: master
     gitRepository: https://github.com/jinternals/toggle.git
+    folder: starter
     jobs:
       - "library-group-template"
