@@ -1,10 +1,11 @@
 - job-template:    
-    id: "{name}-ci-deployment-template"
+    id: "{name}-deployment-template"
     display-name: "{display-name}"
     description: "{description}"
     name: "{name}-ci-deployment"
     project-type: pipeline
     folder: "{folder}"
+    environment: "{environment}"
     parameters:
       - string:
           name: VERSION
