@@ -1,0 +1,7 @@
+- project:
+    name: toggle
+    description: toggle library project.
+    gitBranch: master
+    gitRepository: https://github.com/jinternals/toggle.git
+    jobs:
+      - "{name}-library"
