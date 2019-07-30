@@ -1,5 +1,5 @@
 - job-group:
-    name: 'library-group-template'
+    name: 'starter-group-template'
     jobs:
       - 'folder-job-template'
-      - 'library-job-template'
+      - 'starter-job-template'
