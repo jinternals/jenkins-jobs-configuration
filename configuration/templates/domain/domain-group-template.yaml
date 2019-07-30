@@ -4,7 +4,7 @@
       - 'folder-job-template'
       - 'domain-build-template':
          display-name: "{name}-domain"
-      - 'pr-job-template':
+      - 'domain-pr-template':
          display-name: "{name}-pr"
       - 'domain-deployment-template':
          display-name: "{name}-ci-deployment"
