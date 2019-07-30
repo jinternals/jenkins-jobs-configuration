@@ -2,4 +2,4 @@
     name: 'starter-group-template'
     jobs:
       - 'folder-job-template'
-      - 'starter-job-template'
+      - 'starter-build-template'
