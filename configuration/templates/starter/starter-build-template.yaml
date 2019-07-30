@@ -7,6 +7,6 @@
     project-type: pipeline
     dsl:
       !include-raw:
-      - ../dsl/starter-pipeline-dsl.groovy
+      - ../../dsl/starter-pipeline-dsl.groovy
     triggers:
       - github
