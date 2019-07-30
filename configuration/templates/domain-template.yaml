@@ -6,7 +6,7 @@
          display-name: "{name}-domain"
       - 'pr-job-template':
          display-name: "{name}-pr"
-      - '{name}-deployment-template':
+      - 'deployment-template':
          display-name: "{name}-ci-deployment"
          environment: "ci"
 
