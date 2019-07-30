@@ -1,0 +1,11 @@
+- job-template:    
+    id: "library-job-template"
+    display-name: "{display-name}"
+    description: "${description}"
+    name: "{name}-library"
+    project-type: pipeline
+    dsl:
+      !include-raw:
+      - ../dsl/library-pipeline-dsl.groovy
+    triggers:
+      - github
