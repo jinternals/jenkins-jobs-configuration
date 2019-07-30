@@ -4,4 +4,4 @@
     gitBranch: master
     gitRepository: https://github.com/jinternals/toggle.git
     jobs:
-      - "library-job-template"
+      - "library-group-template"
