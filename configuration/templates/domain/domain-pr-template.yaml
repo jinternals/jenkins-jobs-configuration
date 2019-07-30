@@ -1,5 +1,5 @@
 - job-template:
-    id: "pr-job-template"
+    id: "domain-pr-template"
     display-name: "{display-name}"
     description: "${description}"
     name: "{name}-pipeline"
