@@ -1,5 +1,5 @@
 - view:
-    name: demo-view
-    description: all demo projects
+    name: starter
+    description: All starters
     view-type: list
-    regex: "demo-project-.*"
+    regex: ".*-starter"
