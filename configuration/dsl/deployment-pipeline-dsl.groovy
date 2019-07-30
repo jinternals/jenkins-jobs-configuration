@@ -7,6 +7,7 @@ ciPipeline(
     configBranch: "{configBranch}",
     configRepository: "{configRepository}",
     dockerCredentialId: "dockerhub",
+    environment: "{environment}",
     dockerRegistry: "https://index.docker.io/v1/",
     dockerRepository: "{dockerRepository}"
 )
