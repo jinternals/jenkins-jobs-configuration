@@ -1,5 +1,5 @@
 - job-group:
-    name: '{name}-domain'
+    name: 'domain-group-template'
     jobs:
       - 'folder-job-template'
       - 'build-job-template':
