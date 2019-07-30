@@ -8,5 +8,5 @@
     configRepository: https://github.com/jinternals/configuration.git
     dockerRepository: jinternals/spring-micrometer-demo
     jobs:
-      - "{name}-domain"
+      - "domain-group-template"
 
