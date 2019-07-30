@@ -7,7 +7,7 @@
     folder: "{folder}"
     dsl:
       !include-raw:
-      - ../dsl/git-pull-request-pipeline-dsl.groovy
+      - ../../dsl/git-pull-request-pipeline-dsl.groovy
     parameters:
       - string:
           name: action
