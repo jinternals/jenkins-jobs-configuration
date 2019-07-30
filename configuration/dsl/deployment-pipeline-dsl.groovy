@@ -1,6 +1,6 @@
 @Library("jenkins-demo-shared-libraries") _
 
-ciPipeline(
+deploymentPipeline(
     name: "{name}",
     email: "pandeymradul@gmail.com",
     configCredentialId: "github",
