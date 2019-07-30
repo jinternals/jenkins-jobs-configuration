@@ -1,6 +1,6 @@
 - job-template:    
     id: "library-job-template"
-    display-name: "{display-name}"
+    display-name: "{name}-library"
     description: "${description}"
     name: "{name}-library"
     project-type: pipeline
