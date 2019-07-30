@@ -1,5 +1,5 @@
 - job-template:    
-    id: "deployment-template"
+    id: "domain-deployment-template"
     display-name: "{display-name}"
     description: "{description}"
     name: "{name}-{environment}-deployment"
