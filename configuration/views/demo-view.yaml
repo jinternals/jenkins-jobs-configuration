@@ -2,4 +2,4 @@
     name: starter
     description: All starters
     view-type: list
-    regex: ".*-starter"
+    regex: "starters\/.*-starter"
