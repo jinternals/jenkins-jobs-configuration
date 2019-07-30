@@ -1,6 +1,6 @@
 @Library("jenkins-demo-shared-libraries") _
 
-libraryPipeline(
+starterPipeline(
         name: "{name}",
         gitBranch: "{gitBranch}",
         gitCredentialId: "github",
