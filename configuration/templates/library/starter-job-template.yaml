@@ -1,12 +1,12 @@
 - job-template:    
-    id: "library-job-template"
-    display-name: "{name}-library"
+    id: "starter-job-template"
+    display-name: "{name}-starter"
     description: "${description}"
-    name: "{name}-library"
+    name: "{name}-starter"
     folder: "{folder}"
     project-type: pipeline
     dsl:
       !include-raw:
-      - ../dsl/library-pipeline-dsl.groovy
+      - ../dsl/starter-pipeline-dsl.groovy
     triggers:
       - github
