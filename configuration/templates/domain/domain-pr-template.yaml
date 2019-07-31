@@ -17,8 +17,9 @@
          url: "{gitRepository}"
          branches:
           - "origin/{gitBranch}"
-         browser: githubweb
-         browser-url: https://github.com/jinternals/spring-micrometer-demo
+    properties:
+     - github:
+         url: https://github.com/jinternals/spring-micrometer-demo
     triggers:
      - github-pull-request:
          org-list:
