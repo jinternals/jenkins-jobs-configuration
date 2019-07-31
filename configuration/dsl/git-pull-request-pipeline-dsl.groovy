@@ -1,7 +1,7 @@
 
 @Library("jenkins-demo-shared-libraries") _
 
-gitPullRequestPipeline(name: 'some-name'
+gitPullRequestPipeline(name: '{name}'
                        gitBranch: "{gitBranch}",
                        gitCredentialId: "github",
                        gitRepository: "{gitRepository}")
