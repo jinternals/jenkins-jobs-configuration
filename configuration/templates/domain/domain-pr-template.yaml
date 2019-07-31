@@ -26,9 +26,8 @@
            - jinternals
          cron: 'H/5 * * * *'
          build-desc-template: "build description"
-         trigger-phrase: 'retest this please'
-         skip-build-phrase: 'no tests'
-         only-trigger-phrase: true
+         skip-build-phrase: '.*\[skip\W+ci\].*'
+         only-trigger-phrase: false
          github-hooks: true
          permit-all: true
          auto-close-on-fail: false
