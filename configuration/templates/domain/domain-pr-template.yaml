@@ -15,8 +15,9 @@
       - git:
          credentials-id: "github"
          url: "{gitRepository}"
+         refspec: "+refs/pull/*:refs/remotes/origin/pr/*"
          branches:
-          - "origin/{gitBranch}"
+          - "${sha1}"
     properties:
      - github:
          url: "{gitRepositoryWebUrl}"
