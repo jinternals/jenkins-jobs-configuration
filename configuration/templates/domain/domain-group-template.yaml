@@ -3,7 +3,7 @@
     jobs:
       - 'folder-job-template'
       - 'domain-build-template':
-         display-name: "{name}-domain"
+         display-name: "{name}-domain-builds"
       - 'domain-pr-template':
          display-name: "{name}-pr-builds"
       - 'domain-deployment-template':
