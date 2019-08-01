@@ -19,7 +19,7 @@
           - "origin/{gitBranch}"
     properties:
      - github:
-         url: {gitProjectWebUrl}
+         url: "{git-project-web-url}"
     triggers:
      - github-pull-request:
          org-list:
