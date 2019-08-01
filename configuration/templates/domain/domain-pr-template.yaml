@@ -17,7 +17,7 @@
          url: "{gitRepository}"
          refspec: "+refs/pull/*:refs/remotes/origin/pr/*"
          branches:
-          - '{pullBranch}'
+          - '$\{sha1\}'
     properties:
      - github:
          url: "{gitRepositoryWebUrl}"
