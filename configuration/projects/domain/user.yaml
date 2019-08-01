@@ -2,7 +2,7 @@
     name: user
     description: user demo project.
     gitBranch: master
-    folder: micrometer
+    folder: user
     gitRepository: https://github.com/jinternals/user.git
     gitRepositoryWebUrl: https://github.com/jinternals/user/ 
     configBranch: master
