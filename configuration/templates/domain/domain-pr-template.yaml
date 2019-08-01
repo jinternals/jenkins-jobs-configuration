@@ -19,7 +19,7 @@
           - "origin/{gitBranch}"
     properties:
      - github:
-         url: https://github.com/jinternals/spring-micrometer-demo
+         url: {gitProjectWebUrl}
     triggers:
      - github-pull-request:
          org-list:
