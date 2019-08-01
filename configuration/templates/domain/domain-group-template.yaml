@@ -5,7 +5,7 @@
       - 'domain-build-template':
          display-name: "{name}-domain"
       - 'domain-pr-template':
-         display-name: "{name}-pr-build"
+         display-name: "{name}-pr-builds"
       - 'domain-deployment-template':
          display-name: "{name}-ci-deployment"
          environment: "ci"
