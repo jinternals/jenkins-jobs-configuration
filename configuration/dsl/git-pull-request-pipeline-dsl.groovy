@@ -4,4 +4,7 @@
 gitPullRequestPipeline(name: '{name}',
                        gitBranch: "{gitBranch}",
                        gitCredentialId: "github",
-                       gitRepository: "{gitRepository}")
+                       gitRepository: "{gitRepository}",         
+                       sonarOrganization: "{sonarOrganization}",
+                       sonarProjectKey: "{sonarProjectKey}")
+
