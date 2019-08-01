@@ -8,7 +8,7 @@
     configBranch: master
     configRepository: https://github.com/jinternals/configuration.git
     dockerRepository: jinternals/spring-micrometer-demo
-    pullBranch: "${sha1}"
+    pullBranch: "$\{sha1\}"
     jobs:
       - "domain-group-template"
 
