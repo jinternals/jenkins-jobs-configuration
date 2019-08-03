@@ -3,9 +3,9 @@
     jobs:
       - 'folder-job-template'
       - 'domain-build-template':
-         display-name: "{name}-domain-builds"
+         display-name: "{name}-domain-build"
       - 'domain-pr-template':
-         display-name: "{name}-pr-builds"
+         display-name: "{name}-pr-build"
       - 'domain-deployment-template':
          display-name: "{name}-ci-deployment"
          environment: "ci"
