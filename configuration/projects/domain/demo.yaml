@@ -1,0 +1,14 @@
+- project:
+    name: demo
+    description: demo project.
+    gitBranch: master
+    folder: demo
+    gitRepository: https://github.dev.global.tesco.org/tescoofs/demo.git
+    gitRepositoryWebUrl: https://github.dev.global.tesco.org/tescoofs/demo/
+    configBranch: master
+    configRepository: https://github.com/jinternals/configuration.git
+    dockerRepository: euwdev015ofscontainerregistry.azurecr.io/demo
+    sonarOrganization: demo
+    sonarProjectKey: com.tesco.ofs.demo:demo
+    jobs:
+      - "domain-group-template"
