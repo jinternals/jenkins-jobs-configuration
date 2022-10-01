@@ -3,13 +3,13 @@
     description: micrometer demo project.
     gitBranch: master
     folder: micrometer
-    gitRepository: https://github.com/jinternals/spring-micrometer-demo.git
-    gitRepositoryWebUrl: https://github.com/jinternals/spring-micrometer-demo/ 
+    gitRepository: https://github.com/jinternals/micrometer.git
+    gitRepositoryWebUrl: https://github.com/jinternals/micrometer/ 
     configBranch: master
     configRepository: https://github.com/jinternals/configuration.git
-    dockerRepository: jinternals/spring-micrometer-demo
+    dockerRepository: jinternals/micrometer
     sonarOrganization: demo-ci-cd
-    sonarProjectKey: com.jinternals:spring-micrometer-demo
+    sonarProjectKey: com.jinternals
     jobs:
       - "domain-group-template"
 
