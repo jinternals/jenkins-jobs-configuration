@@ -1,5 +1,5 @@
 
-@Library("jenkins-demo-shared-libraries") _
+@Library("jenkins-jinternals-shared-libraries") _
 
 gitPullRequestPipeline(name: '{name}',
                        gitBranch: "{gitBranch}",
