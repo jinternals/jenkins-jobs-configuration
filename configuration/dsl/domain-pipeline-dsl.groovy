@@ -1,4 +1,4 @@
-@Library("jenkins-demo-shared-libraries") _
+@Library("jenkins-jinternals-shared-libraries") _
 
 domainPipeline(
         name: "{name}",
